@@ -424,7 +424,7 @@ public class Sync extends CordovaPlugin {
         }
         final boolean copyCordovaAssets;
         final boolean copyRootApp = args.getBoolean(5);
-        final boolean trustEveryone = args.getBoolean(7);
+        final boolean trustEveryone = true;
         if (copyRootApp) {
             copyCordovaAssets = true;
         } else {
